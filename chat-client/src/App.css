@@ -1,0 +1,43 @@
+.chat-container {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+.chat-container h1 {
+  color: #fff;
+}
+.chat-container .message-container {
+  background: #eee;
+  padding: 15px;
+  height: 70vh;
+  overflow-y: scroll;
+}
+.chat-container .message-container .message {
+
+}
+.chat-container .message-container .message .message-author {
+  font-size: 12px;
+  margin: 0 15px 0 0;
+  display: inline-block;
+  line-height: 15px;
+}
+.chat-container .message-container .message .message-date {
+  font-size: 11px;
+  display: inline-block;
+  line-height: 15px;
+}
+.chat-container .message-container .message .message-body {
+  background: #fff;
+  padding: 10px;
+  font-size: 13px;
+}
+.chat-container .message-form {
+  margin: 10px 0;
+  height: 20vh;
+  overflow: hidden;
+}
+.chat-container .member-container {
+  background: #eee;
+  height: 70vh;
+}
